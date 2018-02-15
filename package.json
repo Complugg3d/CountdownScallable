@@ -1,11 +1,12 @@
 {
-  "name": "react-weather",
+  "name": "react-boiler",
   "version": "1.0.0",
-  "description": "react weather app",
+  "description": "react boiler plate",
   "main": "index.js",
   "scripts": {
     "test": "karma start",
-    "start": "node server.js"
+    "build": "webpack",
+    "start": "npm run build && node server.js"
   },
   "engines": {
     "node": "6.10.0"
