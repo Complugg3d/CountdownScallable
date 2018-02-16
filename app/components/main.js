@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import TimeBox from 'time-box';
+import RandomNumber from 'random-number';
 
 class Main extends Component {
   constructor(props) {
@@ -40,11 +41,14 @@ class Main extends Component {
     }
 
     return (
-      <div className="main">
-        <TimeBox time={days} label="Days"/>
-        <TimeBox time={hours} label="Hours"/>
-        <TimeBox time={minutes} label="Minutes"/>
-        <TimeBox time={seconds} label="Seconds"/>
+      <div>
+        <div className="main">
+          <TimeBox time={days} label="Days"/>
+          <TimeBox time={hours} label="Hours"/>
+          <TimeBox time={minutes} label="Minutes"/>
+          <TimeBox time={seconds} label="Seconds"/>
+        </div>
+        <RandomNumber rand="400"/>
       </div>
     );
   }
