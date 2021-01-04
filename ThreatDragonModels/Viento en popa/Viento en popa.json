@@ -334,8 +334,8 @@
                 "height": 100
               },
               "position": {
-                "x": 362,
-                "y": 317
+                "x": 360,
+                "y": 320
               },
               "angle": 0,
               "id": "7eced1fc-3ea4-49af-aad7-6dec4a0a708c",
@@ -396,7 +396,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Web Hoisting"
+                  "text": "Web Hosting"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
