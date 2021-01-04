@@ -12,17 +12,17 @@
         "diagramJson": {
           "cells": [
             {
-              "type": "tm.Actor",
+              "type": "tm.Process",
               "size": {
-                "width": 160,
-                "height": 80
+                "width": 100,
+                "height": 100
               },
               "position": {
-                "x": 10,
-                "y": 180
+                "x": 50,
+                "y": 50
               },
               "angle": 0,
-              "id": "8b2ad439-4de6-4cf5-aae9-637901cb6e08",
+              "id": "de4abf1a-44dc-4e10-832c-123b0f50e804",
               "z": 1,
               "hasOpenThreats": false,
               "attrs": {
@@ -30,7 +30,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 0"
+                  "text": "process 0"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -44,15 +44,48 @@
                 "height": 100
               },
               "position": {
-                "x": 320,
-                "y": 170
+                "x": 281,
+                "y": 42
               },
               "angle": 0,
-              "id": "c96785e7-3aa5-4263-acf3-5fd27957102a",
+              "id": "fe839040-d896-40e0-b345-a3d0a01b2ca9",
               "z": 2,
+              "hasOpenThreats": false,
               "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
                 "text": {
                   "text": "process 1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 439,
+                "y": 49
+              },
+              "angle": 0,
+              "id": "0441198e-abf2-449a-bc2a-878f124bdcd8",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             }
