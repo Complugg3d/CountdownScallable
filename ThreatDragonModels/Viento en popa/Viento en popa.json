@@ -18,8 +18,8 @@
                 "height": 100
               },
               "position": {
-                "x": 287,
-                "y": 122
+                "x": 243,
+                "y": 117
               },
               "angle": 0,
               "id": "de4abf1a-44dc-4e10-832c-123b0f50e804",
@@ -30,7 +30,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 0"
+                  "text": "Web Broswer"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -82,7 +82,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 2"
+                  "text": "Web Server"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -96,8 +96,8 @@
                 "height": 80
               },
               "position": {
-                "x": 716,
-                "y": 134
+                "x": 694,
+                "y": 129
               },
               "angle": 0,
               "id": "4f0146b7-789e-4ccf-bc4b-fe086d033955",
@@ -108,7 +108,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 3"
+                  "text": "Java Web App"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -122,8 +122,8 @@
                 "height": 80
               },
               "position": {
-                "x": 955,
-                "y": 127
+                "x": 937,
+                "y": 124
               },
               "angle": 0,
               "id": "0fda4384-1347-4777-8487-4851b3e6ddf7",
@@ -135,6 +135,32 @@
                 },
                 "text": {
                   "text": "store 4"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 362,
+                "y": 298
+              },
+              "angle": 0,
+              "id": "7eced1fc-3ea4-49af-aad7-6dec4a0a708c",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web Hoisting"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
