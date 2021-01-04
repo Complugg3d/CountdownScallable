@@ -18,8 +18,8 @@
                 "height": 100
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 287,
+                "y": 122
               },
               "angle": 0,
               "id": "de4abf1a-44dc-4e10-832c-123b0f50e804",
@@ -38,17 +38,17 @@
               }
             },
             {
-              "type": "tm.Process",
+              "type": "tm.Actor",
               "size": {
-                "width": 100,
-                "height": 100
+                "width": 160,
+                "height": 80
               },
               "position": {
-                "x": 281,
-                "y": 42
+                "x": 9,
+                "y": 131
               },
               "angle": 0,
-              "id": "fe839040-d896-40e0-b345-a3d0a01b2ca9",
+              "id": "933a0325-f788-46a6-8b5a-777b1d430ac8",
               "z": 2,
               "hasOpenThreats": false,
               "attrs": {
@@ -56,7 +56,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "User"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -70,11 +70,11 @@
                 "height": 100
               },
               "position": {
-                "x": 439,
-                "y": 49
+                "x": 492,
+                "y": 123
               },
               "angle": 0,
-              "id": "0441198e-abf2-449a-bc2a-878f124bdcd8",
+              "id": "b148c94e-99c9-49d9-8602-78afc75a322b",
               "z": 3,
               "hasOpenThreats": false,
               "attrs": {
@@ -88,12 +88,64 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 716,
+                "y": 134
+              },
+              "angle": 0,
+              "id": "4f0146b7-789e-4ccf-bc4b-fe086d033955",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 3"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 955,
+                "y": 127
+              },
+              "angle": 0,
+              "id": "0fda4384-1347-4777-8487-4851b3e6ddf7",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 4"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 790
+          "width": 1180
         }
       }
     ]
